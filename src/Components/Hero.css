@@ -1,0 +1,29 @@
+.hero {
+  height: 100vh;
+  padding-top: 5rem;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+}
+
+.hero-container h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero-container p {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  width: 80%;
+}
+
+.hero-title span {
+  text-decoration: underline;
+  text-decoration-color: #ec4235;
+}

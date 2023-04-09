@@ -1,0 +1,45 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.25rem 2rem;
+  border-bottom: 1px solid #ec4235;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  background-color: #242424;
+}
+
+.header-link,
+a {
+  margin: 0 1.5rem;
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #ec4235;
+}
+
+.red-accent {
+  color: #ec4235;
+}
+
+.header-title {
+  color: #fff;
+}
+
+.header-title:hover {
+  color: #ec4235;
+}
+
+.header-title:hover span {
+  color: #fff;
+}
+
+.header-title,
+.red-accent {
+  transition: color 0.3s ease;
+}

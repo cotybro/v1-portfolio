@@ -1,0 +1,93 @@
+.about-container {
+  margin-bottom: 10rem;
+}
+
+.about-title {
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 2rem;
+}
+
+.about-title:after {
+  content: '';
+  display: block;
+  margin: 0 auto;
+  width: 4rem;
+  height: 5px;
+  background-color: #ec4235;
+  margin-top: 0.6rem;
+  border-radius: 5px;
+}
+
+.about-text {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 7rem;
+}
+
+.bottom-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 80%;
+  margin: 0 auto;
+  margin-bottom: 8rem;
+}
+
+.contact {
+  width: 48%;
+}
+
+.contact-title {
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 2.75rem;
+}
+
+.contact-title::after {
+  content: '';
+  display: block;
+  margin: 0 auto;
+  width: 4rem;
+  height: 5px;
+  background-color: #ec4235;
+  margin-top: 0.6rem;
+  border-radius: 5px;
+}
+
+.skills {
+  width: 48%;
+}
+
+.skills-title {
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 2rem;
+}
+
+.skills-title::after {
+  content: '';
+  display: block;
+  margin: 0 auto;
+  width: 4rem;
+  height: 5px;
+  background-color: #ec4235;
+  margin-top: 0.6rem;
+  border-radius: 5px;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 4rem;
+}
+
+.skill {
+  background-color: #ec4235;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  margin: 0.5rem;
+}

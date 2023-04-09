@@ -1,0 +1,26 @@
+footer {
+  background-color: #242424;
+  color: #fff;
+  padding: 20px;
+  width: 100%;
+  border-top: 1px solid white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 1.25rem 2rem;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  margin: 0 0.3rem;
+}
+
+.footer-text {
+  margin-bottom: 0.5rem;
+}
