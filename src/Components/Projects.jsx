@@ -23,7 +23,7 @@ function Projects() {
           data-aos-duration='1250'
         >
           <div className='img-container'>
-            <img src='\src\assets\Pictures\420shots_so.png' alt='project' />
+            <img src='../assets/Pictures/420shots_so.png' alt='project' />
           </div>
           <div className='project-info'>
             <h3 className='project-title'>Project 1</h3>
@@ -47,7 +47,7 @@ function Projects() {
           data-aos-duration='1250'
         >
           <div className='img-container'>
-            <img src='\src\assets\Pictures\420shots_so.png' alt='project' />
+            <img src='../assets/Pictures/420shots_so.png' alt='project' />
           </div>
           <div className='project-info'>
             <h3 className='project-title'>Project 1</h3>
@@ -71,7 +71,7 @@ function Projects() {
           data-aos-duration='1250'
         >
           <div className='img-container'>
-            <img src='\src\assets\Pictures\420shots_so.png' alt='project' />
+            <img src='../assets/Pictures/420shots_so.png' alt='project' />
           </div>
           <div className='project-info'>
             <h3 className='project-title'>Project 1</h3>
